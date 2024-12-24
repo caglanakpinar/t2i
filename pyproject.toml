@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "t2i"
+version = "0.1.0"
+description = ""
+authors = ["caglanakpinar <cakpinar23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tensorflow = "^2.18.0"
+keras-hub = "^0.18.1"
+pandas = "^2.2.3"
+keras = "^3.7.0"
+jupyterlab = "^4.3.4"
+matplotlib = "^3.10.0"
+tensorflow-datasets = "^4.9.7"
+tensorflow-text = "^2.18.1"
+dl-ml-ops = {git = "https://github.com/caglanakpinar/dl_ml_ops.git"}
+pre-commit = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
