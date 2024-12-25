@@ -1,0 +1,10 @@
+
+/super_resolution/__pycache__
+/super_resolution/__pycache__
+*.pyc
+*.png
+*.xml
+*.jpg
+*.gz
+/u_net_image_segmentation/annotations
+*.mat

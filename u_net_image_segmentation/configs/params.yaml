@@ -1,0 +1,13 @@
+name: u_net_image_segmentation
+input_dir: images/
+target_dir: annotations/trimaps/
+img_size: !!python/tuple [160,160]
+num_classes: 3
+batch_size: 32
+hidden_layers: 4
+hidden_units: 256
+activation: relu
+output_activation: softmax
+lr: !!python/float 1e-4
+loss: sparse_categorical_crossentropy
+epochs: 50

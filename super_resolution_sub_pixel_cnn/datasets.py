@@ -9,7 +9,6 @@ class BSRData(BaseData):
     def __init__(self, params: Params):
         self.params = params
         self.dataset_url = self.params.get('dataset_url')
-        print("AAAASADSADSA :::::SADSA ::::", self.dataset_url)
         self.data_dir = keras.utils.get_file(origin=self.dataset_url, fname="BSR", untar=True)
         self.root_dir = os.path.join(self.data_dir, "BSR/BSDS500/data")
         self.crop_size = self.params.get('crop_size')

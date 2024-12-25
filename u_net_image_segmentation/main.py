@@ -8,10 +8,10 @@ if __name__ == "__main__":
     cli()
 
 """
-cd super_resolution
+cd u_net_image_segmentation
 poetry run python main.py \
 model train \
---training_class super_resolution_sub_pixel.SuperResolution \
+--training_class u_net.UNet \
 --trainer_config_path configs/params.yaml \
---data_access_class datasets.BSRData
+--data_access_class datasets.AnnotationsData
 """
